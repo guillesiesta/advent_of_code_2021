@@ -10,6 +10,10 @@ list_numbers = mensaje.split('\n')
 result = {}
 lista_invertida = []
 
+
+# recorro por columnas el input que me han dado y creo una nueva lista con los números
+# de las columnas. Digamos que invierto y me queda: que tengo un diccionario de 
+# numero de keys=columnas (o longitud de los numeros)
 for x in range(len(list_numbers[0])):
     for i in list_numbers:
         lista_invertida.append(i[x]) 
