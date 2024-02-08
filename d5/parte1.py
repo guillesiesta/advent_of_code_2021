@@ -1,5 +1,6 @@
 import re
 filename = "input.txt"
+variable = "cositas"
 
 def parse_coordinates_and_create_grid():
     global grid
